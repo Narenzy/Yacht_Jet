@@ -21,8 +21,8 @@ a {
 ul,
 ol {
   list-style: none;
-  margin: 0px;
-  padding-left: 0;
+  margin: 0;
+  padding: 0;
 }
 button {
   cursor: pointer;
@@ -45,11 +45,12 @@ img {
 /* #region nav */
 .header .container {
   background: #fbfbfb;
-  display: flex;
-  justify-content: space-between;
   border: 1px solid #fbfbfb;
   border-radius: 8px;
   width: 1080px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   height: 48px;
 }
 .logo {
@@ -61,19 +62,30 @@ img {
 }
 .nav {
 }
-.nav-list {
-  background: rgba(27, 65, 75, 0.5);
-  border-radius: 8px;
-  width: 91px;
-  height: 40px;
+.nav-list-menu {
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: row;
   gap: 4px;
 }
-
 .nav-item {
+  border-radius: 8px;
+  padding: 15px 25px;
+
+  background-color: rgba(27, 65, 75, 0.5);
+
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 1.3;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fbfbfb;
+}
+.nav-list-icon {
+}
+
+.nav-item-icon {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 /* #endregion nav */
