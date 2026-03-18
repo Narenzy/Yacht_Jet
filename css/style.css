@@ -80,12 +80,27 @@ img {
   color: #fbfbfb;
 }
 .nav-list-icon {
+  display: flex;
+
+  gap: 10px;
 }
 
 .nav-item-icon {
   display: flex;
+  justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
+
+  border-radius: 50%;
+  background-color: #1b414b;
+}
+.social-icon {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: tomato;
 }
 
 /* #endregion nav */
